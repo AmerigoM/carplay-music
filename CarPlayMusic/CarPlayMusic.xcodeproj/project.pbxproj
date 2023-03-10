@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1731B0FA28F00D07002165BE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1731B0F928F00D07002165BE /* Colors.xcassets */; };
+		1731B0FE28F02B3D002165BE /* MusicPlayerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731B0FD28F02B3D002165BE /* MusicPlayerEngine.swift */; };
+		1731B10128F03219002165BE /* europe-travel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1731B10028F03219002165BE /* europe-travel.mp3 */; };
+		1731B10328F0325F002165BE /* forest-lullaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1731B10228F0325F002165BE /* forest-lullaby.mp3 */; };
+		1731B10528F03368002165BE /* wanderer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1731B10428F03368002165BE /* wanderer.mp3 */; };
+		17488DE52923FB9100FD9FA7 /* dark-world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17488DE32923FB9100FD9FA7 /* dark-world.mp3 */; };
+		17488DE62923FB9100FD9FA7 /* snowflakes-pattern.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17488DE42923FB9100FD9FA7 /* snowflakes-pattern.mp3 */; };
+		177A7F3B28F04F7500657BCA /* CarPlayMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177A7F3A28F04F7500657BCA /* CarPlayMusic.swift */; };
+		179F1B73292387F2004BFF35 /* MusicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179F1B72292387F2004BFF35 /* MusicTableView.swift */; };
+		17CD6197289A5EF200B28B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD6196289A5EF200B28B55 /* AppDelegate.swift */; };
+		17CD6199289A5EF200B28B55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD6198289A5EF200B28B55 /* SceneDelegate.swift */; };
+		17CD619B289A5EF200B28B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD619A289A5EF200B28B55 /* ViewController.swift */; };
+		17CD619E289A5EF200B28B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD619C289A5EF200B28B55 /* Main.storyboard */; };
+		17CD61A0289A5EF300B28B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CD619F289A5EF300B28B55 /* Assets.xcassets */; };
+		17CD61A3289A5EF300B28B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CD61A1289A5EF300B28B55 /* LaunchScreen.storyboard */; };
+		17CD61AE289A611200B28B55 /* CarPlayMainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD61AD289A611200B28B55 /* CarPlayMainScene.swift */; };
+		17F420D02923857000ED8E56 /* MusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F420CF2923857000ED8E56 /* MusicCell.xib */; };
+		17F420D22923870200ED8E56 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F420D12923870200ED8E56 /* MusicCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1731B0F928F00D07002165BE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1731B0FD28F02B3D002165BE /* MusicPlayerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerEngine.swift; sourceTree = "<group>"; };
+		1731B10028F03219002165BE /* europe-travel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "europe-travel.mp3"; sourceTree = "<group>"; };
+		1731B10228F0325F002165BE /* forest-lullaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest-lullaby.mp3"; sourceTree = "<group>"; };
+		1731B10428F03368002165BE /* wanderer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wanderer.mp3; sourceTree = "<group>"; };
+		17488DE32923FB9100FD9FA7 /* dark-world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dark-world.mp3"; sourceTree = "<group>"; };
+		17488DE42923FB9100FD9FA7 /* snowflakes-pattern.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snowflakes-pattern.mp3"; sourceTree = "<group>"; };
+		177A7F3A28F04F7500657BCA /* CarPlayMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayMusic.swift; sourceTree = "<group>"; };
+		177EF8B0289A666F006D714C /* CarPlayMusicDebug.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CarPlayMusicDebug.entitlements; sourceTree = "<group>"; };
+		179F1B72292387F2004BFF35 /* MusicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableView.swift; sourceTree = "<group>"; };
+		17CD6193289A5EF200B28B55 /* CarPlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CD6196289A5EF200B28B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17CD6198289A5EF200B28B55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17CD619A289A5EF200B28B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17CD619D289A5EF200B28B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17CD619F289A5EF300B28B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17CD61A2289A5EF300B28B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17CD61A4289A5EF300B28B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CD61AD289A611200B28B55 /* CarPlayMainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayMainScene.swift; sourceTree = "<group>"; };
+		17F420CF2923857000ED8E56 /* MusicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCell.xib; sourceTree = "<group>"; };
+		17F420D12923870200ED8E56 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17CD6190289A5EF200B28B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1731B0FB28F02AC7002165BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				17F420CC2923849E00ED8E56 /* Music Table View */,
+				17CD619A289A5EF200B28B55 /* ViewController.swift */,
+				17CD619C289A5EF200B28B55 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1731B0FC28F02B2E002165BE /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1731B0FD28F02B3D002165BE /* MusicPlayerEngine.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		1731B0FF28F03209002165BE /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				17488DE32923FB9100FD9FA7 /* dark-world.mp3 */,
+				17488DE42923FB9100FD9FA7 /* snowflakes-pattern.mp3 */,
+				1731B10228F0325F002165BE /* forest-lullaby.mp3 */,
+				1731B10028F03219002165BE /* europe-travel.mp3 */,
+				1731B10428F03368002165BE /* wanderer.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		179F1B71292387A9004BFF35 /* Music Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17F420CF2923857000ED8E56 /* MusicCell.xib */,
+				17F420D12923870200ED8E56 /* MusicCell.swift */,
+			);
+			path = "Music Cell";
+			sourceTree = "<group>";
+		};
+		17CD618A289A5EF200B28B55 = {
+			isa = PBXGroup;
+			children = (
+				17CD6195289A5EF200B28B55 /* CarPlayMusic */,
+				17CD6194289A5EF200B28B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17CD6194289A5EF200B28B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17CD6193289A5EF200B28B55 /* CarPlayMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17CD6195289A5EF200B28B55 /* CarPlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				17CD61A4289A5EF300B28B55 /* Info.plist */,
+				177EF8B0289A666F006D714C /* CarPlayMusicDebug.entitlements */,
+				17CD61AC289A5F4000B28B55 /* CarPlay */,
+				17CD61AB289A5F2F00B28B55 /* App */,
+				17CD61AA289A5F0000B28B55 /* Resources */,
+			);
+			path = CarPlayMusic;
+			sourceTree = "<group>";
+		};
+		17CD61AA289A5F0000B28B55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1731B0FF28F03209002165BE /* Songs */,
+				17CD619F289A5EF300B28B55 /* Assets.xcassets */,
+				1731B0F928F00D07002165BE /* Colors.xcassets */,
+				17CD6198289A5EF200B28B55 /* SceneDelegate.swift */,
+				17CD6196289A5EF200B28B55 /* AppDelegate.swift */,
+				17CD61A1289A5EF300B28B55 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17CD61AB289A5F2F00B28B55 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1731B0FC28F02B2E002165BE /* MusicPlayer */,
+				1731B0FB28F02AC7002165BE /* Home */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		17CD61AC289A5F4000B28B55 /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				17CD61AD289A611200B28B55 /* CarPlayMainScene.swift */,
+				177A7F3A28F04F7500657BCA /* CarPlayMusic.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		17F420CC2923849E00ED8E56 /* Music Table View */ = {
+			isa = PBXGroup;
+			children = (
+				179F1B71292387A9004BFF35 /* Music Cell */,
+				179F1B72292387F2004BFF35 /* MusicTableView.swift */,
+			);
+			path = "Music Table View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17CD6192289A5EF200B28B55 /* CarPlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CD61A7289A5EF300B28B55 /* Build configuration list for PBXNativeTarget "CarPlayMusic" */;
+			buildPhases = (
+				17CD618F289A5EF200B28B55 /* Sources */,
+				17CD6190289A5EF200B28B55 /* Frameworks */,
+				17CD6191289A5EF200B28B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPlayMusic;
+			productName = CarPlayTest1;
+			productReference = 17CD6193289A5EF200B28B55 /* CarPlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17CD618B289A5EF200B28B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					17CD6192289A5EF200B28B55 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 17CD618E289A5EF200B28B55 /* Build configuration list for PBXProject "CarPlayMusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17CD618A289A5EF200B28B55;
+			productRefGroup = 17CD6194289A5EF200B28B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17CD6192289A5EF200B28B55 /* CarPlayMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17CD6191289A5EF200B28B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CD61A3289A5EF300B28B55 /* LaunchScreen.storyboard in Resources */,
+				1731B0FA28F00D07002165BE /* Colors.xcassets in Resources */,
+				17CD61A0289A5EF300B28B55 /* Assets.xcassets in Resources */,
+				1731B10528F03368002165BE /* wanderer.mp3 in Resources */,
+				1731B10328F0325F002165BE /* forest-lullaby.mp3 in Resources */,
+				1731B10128F03219002165BE /* europe-travel.mp3 in Resources */,
+				17CD619E289A5EF200B28B55 /* Main.storyboard in Resources */,
+				17F420D02923857000ED8E56 /* MusicCell.xib in Resources */,
+				17488DE62923FB9100FD9FA7 /* snowflakes-pattern.mp3 in Resources */,
+				17488DE52923FB9100FD9FA7 /* dark-world.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17CD618F289A5EF200B28B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A7F3B28F04F7500657BCA /* CarPlayMusic.swift in Sources */,
+				17CD61AE289A611200B28B55 /* CarPlayMainScene.swift in Sources */,
+				17F420D22923870200ED8E56 /* MusicCell.swift in Sources */,
+				1731B0FE28F02B3D002165BE /* MusicPlayerEngine.swift in Sources */,
+				17CD619B289A5EF200B28B55 /* ViewController.swift in Sources */,
+				17CD6197289A5EF200B28B55 /* AppDelegate.swift in Sources */,
+				17CD6199289A5EF200B28B55 /* SceneDelegate.swift in Sources */,
+				179F1B73292387F2004BFF35 /* MusicTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17CD619C289A5EF200B28B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CD619D289A5EF200B28B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17CD61A1289A5EF300B28B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17CD61A2289A5EF300B28B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17CD61A5289A5EF300B28B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17CD61A6289A5EF300B28B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17CD61A8289A5EF300B28B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarPlayMusic/CarPlayMusicDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WUVY3SGHN;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarPlayMusic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarPlay Music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amancino.CarPlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17CD61A9289A5EF300B28B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WUVY3SGHN;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarPlayMusic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "CarPlay Music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amancino.CarPlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17CD618E289A5EF200B28B55 /* Build configuration list for PBXProject "CarPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD61A5289A5EF300B28B55 /* Debug */,
+				17CD61A6289A5EF300B28B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CD61A7289A5EF300B28B55 /* Build configuration list for PBXNativeTarget "CarPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CD61A8289A5EF300B28B55 /* Debug */,
+				17CD61A9289A5EF300B28B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17CD618B289A5EF200B28B55 /* Project object */;
+}

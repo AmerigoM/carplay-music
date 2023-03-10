@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VG4-fk-cQC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CarPlayMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="WHG-cT-Dbp" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarPlay Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4g-g1-e8X" userLabel="Title">
+                                <rect key="frame" x="20" y="64" width="374" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="Independence"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="100" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Raf-74-4DM" customClass="MusicTableView" customModule="CarPlayMusic" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="110.5" width="414" height="751.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M4g-g1-e8X" secondAttribute="trailing" constant="20" id="13Y-pC-2xS"/>
+                            <constraint firstItem="WHG-cT-Dbp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Kd-Jl-tEY"/>
+                            <constraint firstItem="M4g-g1-e8X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="AR1-Gf-7az"/>
+                            <constraint firstItem="WHG-cT-Dbp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aeo-zf-ndq"/>
+                            <constraint firstItem="M4g-g1-e8X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Axp-Bf-Oy7"/>
+                            <constraint firstItem="Raf-74-4DM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Db9-wK-Zpv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Raf-74-4DM" secondAttribute="bottom" id="Qih-kU-DpW"/>
+                            <constraint firstAttribute="bottom" secondItem="WHG-cT-Dbp" secondAttribute="bottom" id="Te0-31-iUb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Raf-74-4DM" secondAttribute="trailing" id="ghx-Sa-bVh"/>
+                            <constraint firstItem="WHG-cT-Dbp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kzK-5m-uXm"/>
+                            <constraint firstItem="Raf-74-4DM" firstAttribute="top" secondItem="M4g-g1-e8X" secondAttribute="bottom" constant="20" id="yEo-ne-gbb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="o9D-NZ-WlL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2866.666666666667" y="124.55357142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4dO-tf-gFO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="VG4-fk-cQC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sPa-MA-CJS">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Dsj-1V-TOw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOB-1E-HPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652" y="125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="800" height="200"/>
+        <namedColor name="Independence">
+            <color red="0.22352941176470589" green="0.25098039215686274" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
